@@ -12,17 +12,16 @@ html{
 header{
     background-color: #0084fd;
     padding: 10px;
-  /*position: fixed;
+    position: fixed;
     width: 100%;
-    z-index: 1;*/
+    z-index: 1;
 }
 
 #started{
-    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
+    width: 65%;
     margin: auto;
 }
 
@@ -47,9 +46,13 @@ header{
 }
 
 /*get a demo application*/
+
+main{
+    padding-top: 90px;
+}
+
 #container-app{
     padding-top: 15px;
-    background-color: orange;
     align-items: center;
     width: 1000px;
     margin: auto;
@@ -60,8 +63,7 @@ header{
 .demo-application{
     background-color: #b5ddff;
     border-radius: 15px;
-    padding: 15px;
-    height: 250px;
+    padding: 30px;
     display: flex;
     width: 71%;
     position: relative;
@@ -74,8 +76,8 @@ header{
 
 .info-phone h3{
     color: #0084fd;
+    padding-bottom: 10px;
 }
-
 
 .info-phone p{
     padding-top: 5px;
@@ -83,27 +85,6 @@ header{
     padding-bottom: 30px;
     color: #5a6e7f;
 }
-
-.demo-application figure{
-    position: absolute;
-    bottom: -5px;
-    right: 100px;
-}    
-
-
-
-.clean{
-    border: 1px solid black;
-    background-color: blue;
-    border-radius: 15px;
-    width: 35%;
-    height: 250px;
-    float: right;
-}
-
-svg{
-}
-
 
 .but-blue{
     background-color: #0084fd;
@@ -120,3 +101,73 @@ svg{
     cursor: pointer;
 }
 
+img{
+    position: absolute;
+    bottom: 0;
+}
+
+
+/*app*/
+.app{
+    background-color: #b5ddff;
+    border-radius: 15px;
+    padding: 10px;
+    width: 35%;
+    text-align: center;
+}
+
+.app h3{
+    color: #0084fd;
+    padding-bottom: 10PX;
+}
+
+.app p{
+    padding: 15px;
+    font-size: 15px;
+    color: #5a6e7f;
+}
+
+@media screen and ( max-width: 768px ){
+
+
+
+
+
+
+    #container-app{
+        width: 90%;
+    }
+
+    .demo-application{
+        display: flex;
+        height: 400px;
+    }
+    
+    .app p{
+        font-size: 15px;
+    }
+    
+    .info{
+        width: 100%;
+    }
+    
+    .app{
+        padding: 5px;
+        width: 35%;
+        height: 400px;
+    }
+
+    
+    .demo-application{
+        position: relative;
+    }
+    
+    figure img{
+        width: 160px;
+        height: 170px;
+        position: absolute;
+        bottom: 0;
+        left: 40px;
+    }
+
+}
