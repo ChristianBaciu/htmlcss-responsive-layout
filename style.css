@@ -12,9 +12,9 @@ html{
 header{
     background-color: #0084fd;
     padding: 10px;
-    position: fixed;
+  /*position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 1;*/
 }
 
 #started{
@@ -47,40 +47,48 @@ header{
 }
 
 /*get a demo application*/
-#application{
-    padding-top: 100px;
+#container-app{
+    padding-top: 15px;
     background-color: orange;
     align-items: center;
     width: 1000px;
     margin: auto;
     display: flex;
     gap: 15px;
-    
 }
 
-.app-store{
-    border: 1px solid black;
-    background-color: blueviolet;
+.demo-application{
+    background-color: #b5ddff;
     border-radius: 15px;
     padding: 15px;
     height: 250px;
     display: flex;
-    width: 70%;
+    width: 71%;
+    position: relative;
 }
 
-.ciao{
-    background-color: red;
+.info{
     padding-top: 10px;
-    width: 55%;
+    width: 50%;
 }
 
+.info-phone h3{
+    color: #0084fd;
+}
 
 
 .info-phone p{
     padding-top: 5px;
     font-size: 15px;
     padding-bottom: 30px;
+    color: #5a6e7f;
 }
+
+.demo-application figure{
+    position: absolute;
+    bottom: -5px;
+    right: 100px;
+}    
 
 
 
@@ -92,6 +100,10 @@ header{
     height: 250px;
     float: right;
 }
+
+svg{
+}
+
 
 .but-blue{
     background-color: #0084fd;
@@ -107,3 +119,4 @@ header{
     background-color: #65b5ff;
     cursor: pointer;
 }
+
