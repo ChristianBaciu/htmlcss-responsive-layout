@@ -11,18 +11,19 @@ html{
 /*started*/
 header{
     background-color: #0084fd;
-    padding: 10px;
     position: fixed;
     width: 100%;
     z-index: 1;
+    padding: 10px;
 }
 
-#started{
+#started{ 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 65%;
+    width: 1000px;
     margin: auto;
+    text-align: center;
 }
 
 #started ul{
@@ -30,6 +31,7 @@ header{
     display: flex;
     list-style-type: none; 
     color: white;
+    align-items: center;
 }
 
 .but-white{
@@ -46,7 +48,6 @@ header{
 }
 
 /*get a demo application*/
-
 main{
     padding-top: 90px;
 }
@@ -101,11 +102,10 @@ main{
     cursor: pointer;
 }
 
-img{
+#container-app img{
     position: absolute;
     bottom: 0;
 }
-
 
 /*app*/
 .app{
@@ -127,12 +127,12 @@ img{
     color: #5a6e7f;
 }
 
+/*768*/
 @media screen and ( max-width: 768px ){
 
-
-
-
-
+    #started{ 
+        width: 100%;
+    }
 
     #container-app{
         width: 90%;
@@ -169,5 +169,54 @@ img{
         bottom: 0;
         left: 40px;
     }
+
+}
+
+/*480*/
+@media screen and ( max-width: 480px ){
+
+    #started{ 
+        width: 100%;
+    }
+
+    #container-app{
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .demo-application{
+        display: flex;
+        height: 440px;
+    }
+    
+    .app p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    
+    .info{
+        width: 100%;
+    }
+    
+    .app{
+        padding: 10px;
+        width: 80%;
+        height: 300px;
+    }
+
+    
+    .demo-application{
+        position: relative;
+    }
+    
+    figure img{
+        width: 200px;
+        height: 170px;
+        position: absolute;
+        bottom: 0;
+        left: 35px;
+    }
+
+
 
 }
