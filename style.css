@@ -127,11 +127,94 @@ main{
     color: #5a6e7f;
 }
 
+/*strategic planning*/
+#container-color{
+    background-color: #9792e4;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.container-strat{
+    padding-top: 50px;
+    width: 800px;
+    margin: auto;
+}
+
+/*left*/
+.strategic-left{
+    float: left;
+    width: 50%;
+}
+
+.strat-left img{
+    height: 250px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+.strat-left{
+    margin: auto;
+    border-radius: 30px;
+    width: 80%;
+    padding-top: 40px;
+    padding: 20px;
+}
+
+.strat-left p{
+    padding-top: 50px;
+    font-size: 15px;
+    color: white;
+}
+
+.strat-left h3{
+    color: white;
+}
+
+/*right*/
+.strategic-right{
+    padding-top: 100px;
+    float: right;
+    width: 50%;
+}
+
+.strat-right{
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 80%;
+    padding-top: 40px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.strat-right img{
+    height: 200px;
+    padding-bottom: 20px;
+}
+
+.strat-right span{ /*cerchio*/
+    background-color: #9792e4;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50%;
+}
+
+.strat-right p{
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding: 15px;
+}
+
+
+
 /*768*/
 @media screen and ( max-width: 768px ){
 
     #started{ 
-        width: 100%;
+        width: 90%;
     }
 
     #container-app{
@@ -169,6 +252,90 @@ main{
         bottom: 0;
         left: 40px;
     }
+
+
+
+    /*strategic planning*/
+    #container-color{
+        background-color: #9792e4;
+        height: 100%;
+    }
+
+    .container-strat{
+        display: flex;
+        flex-direction: column;
+        background-color: orange;
+    }
+
+    /*left*/
+    .strategic-left{
+        margin: auto;
+        width: 90%;
+        background-color: aquamarine;
+    }
+
+    .strat-left img{
+        height: 400px;
+        padding-bottom: 20px;
+    }
+
+    .strat-left{
+        border-radius: 30px;
+        width: 80%;
+        padding-top: 40px;
+        padding: 20px;
+    }
+
+    .strat-left p{
+        padding-top: 50px;
+        font-size: 15px;
+        color: white;
+    }
+
+    .strat-left h3{
+        color: white;
+        font-size: 50px;
+    }
+
+    /*right*/
+    .strategic-right{
+        padding-top: 100px;
+        float: right;
+        width: 90%;
+        background-color: red;
+    }
+
+    .strat-right{
+        background-color: #ffffff;
+        border-radius: 30px;
+        width: 90%;
+        padding-top: 40px;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    .strat-right img{
+        height: 200px;
+        padding-bottom: 20px;
+    }
+
+    .strat-right span{ /*cerchio*/
+        background-color: #9792e4;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 50%;
+    }
+
+    .strat-right p{
+        font-style: italic;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding: 15px;
+    }
+
+
 
 }
 
