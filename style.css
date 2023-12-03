@@ -154,7 +154,6 @@ main{
 
 .strat-left{
     margin: auto;
-    border-radius: 30px;
     width: 80%;
     padding-top: 40px;
     padding: 20px;
@@ -208,6 +207,20 @@ main{
     padding: 15px;
 }
 
+/*we are committed expert parthers*/
+
+#contanier-expert-parthers{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
 
 
 /*768*/
@@ -230,21 +243,12 @@ main{
         font-size: 15px;
     }
     
-    .info{
-        width: 100%;
-    }
-    
     .app{
         padding: 5px;
         width: 35%;
         height: 400px;
     }
-
-    
-    .demo-application{
-        position: relative;
-    }
-    
+        
     figure img{
         width: 160px;
         height: 170px;
@@ -253,89 +257,48 @@ main{
         left: 40px;
     }
 
-
-
     /*strategic planning*/
     #container-color{
-        background-color: #9792e4;
-        height: 100%;
+        height: 100%;    
     }
 
     .container-strat{
         display: flex;
         flex-direction: column;
-        background-color: orange;
+        width: 90%;
     }
 
     /*left*/
     .strategic-left{
         margin: auto;
         width: 90%;
-        background-color: aquamarine;
     }
 
     .strat-left img{
-        height: 400px;
-        padding-bottom: 20px;
+        height: 500px;
     }
 
     .strat-left{
-        border-radius: 30px;
         width: 80%;
-        padding-top: 40px;
-        padding: 20px;
-    }
-
-    .strat-left p{
-        padding-top: 50px;
-        font-size: 15px;
-        color: white;
     }
 
     .strat-left h3{
-        color: white;
         font-size: 50px;
     }
 
     /*right*/
     .strategic-right{
-        padding-top: 100px;
-        float: right;
+        margin: auto;
         width: 90%;
-        background-color: red;
     }
 
     .strat-right{
-        background-color: #ffffff;
-        border-radius: 30px;
         width: 90%;
-        padding-top: 40px;
-        padding: 20px;
-        text-align: center;
-
     }
 
     .strat-right img{
-        height: 200px;
-        padding-bottom: 20px;
+        height: 300px;
     }
-
-    .strat-right span{ /*cerchio*/
-        background-color: #9792e4;
-        padding: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        border-radius: 50%;
-    }
-
-    .strat-right p{
-        font-style: italic;
-        padding-top: 20px;
-        padding-bottom: 30px;
-        padding: 15px;
-    }
-
-
 
 }
 
@@ -344,6 +307,7 @@ main{
 
     #started{ 
         width: 100%;
+        background-color: red;
     }
 
     #container-app{
@@ -353,6 +317,7 @@ main{
 
     .demo-application{
         display: flex;
+        width: 80%;
         height: 440px;
     }
     
@@ -384,6 +349,46 @@ main{
         left: 35px;
     }
 
+    /*strategic planning*/
+    #container-color{
+        height: 100%;    
+    }
+
+    .container-strat{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    /*left*/
+    .strategic-left{
+        margin: auto;
+        width: 90%;
+    }
+
+    .strat-left img{
+        height: 350px;
+        float: left;
+    }
+
+    .strat-left{
+        width: 100%;
+    }
+    
+    .strat-left p{
+        line-height: 30px;
+    }
+
+
+    .strat-left h3{
+        padding-bottom: 40px;
+        font-size: 35px;
+    }
+ 
+    /*right*/    
+    .strat-right p{
+        line-height: 30px;
+    }
 
 
 }
