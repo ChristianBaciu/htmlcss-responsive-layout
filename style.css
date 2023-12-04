@@ -63,7 +63,6 @@ main{
     margin: auto;
     display: flex;
     gap: 15px;
-    background-color: red
 }
 
 .demo-application{
@@ -142,6 +141,7 @@ main{
 .container-strat{
     padding-top: 50px;
     width: 900px;
+    margin: 0 auto;
 }
 
 /*left*/
@@ -211,17 +211,47 @@ main{
 }
 
 /*we are committed expert parthers*/
-
 #contanier-expert-parthers{
-    background-color: red;
+    width: 1000px;
+    margin: 0 auto;
+    
 }
 
+.testimonials{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+.testimonials h1{
+    padding: 30px;
+    color: #9792e4;
+    font-size: 40px;
+}
 
+.contenitore-persone{
+    background-color: #9792e4;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+}
 
+.parthers{
+    width: 25%;
+}
 
+.contenitore-persone img{
+    width: 150px;
+    height: 150px;
+    clip-path: circle(50%);
+}
 
-
+.info-parthers p{
+    padding-top: 30px;
+    width: 90%;
+    display: flex;
+    color: white;
+}
 
 
 
@@ -292,11 +322,13 @@ main{
     }
 
     .strat-left img{
-        width: 90%;
+        width: 80%;
+        height: 50%;
     }
 
     .strat-left{
-        width: 90%;
+        width: 100%;
+        line-height: 30px;
     }
 
     .strat-left h3{
@@ -311,11 +343,26 @@ main{
 
     .strat-right{
         width: 90%;
+        line-height: 30px;
     }
 
     .strat-right img{
         height: 300px;
     }
+
+    /*we are committed expert parthers*/
+    #contanier-expert-parthers{
+        width: 90%;
+    }
+
+    .parthers{
+        width: 200px;
+    }
+
+    .info-parthers p{
+        padding-left: 30px;
+    }
+
 
 }
 
@@ -331,6 +378,10 @@ main{
         flex-direction: column;
     }
 
+    .but-blue{
+        width: 200px;
+    }
+    
     .demo-application{
         display: flex;
         width: 80%;
