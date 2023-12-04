@@ -254,8 +254,6 @@ main{
 }
 
 
-
-
 /*768*/
 @media screen and ( max-width: 768px ){
 
@@ -305,7 +303,7 @@ main{
 
     /*strategic planning*/
     #container-color{
-        height: 100%;    
+        height: 100%; 
     }
 
     .container-strat{
@@ -313,6 +311,7 @@ main{
         flex-direction: column;
         width: 90%;
         margin: 0 auto;
+        padding-bottom: 50px;
     }
 
     /*left*/
@@ -362,7 +361,6 @@ main{
     .info-parthers p{
         padding-left: 30px;
     }
-
 
 }
 
@@ -454,6 +452,41 @@ main{
     /*right*/    
     .strat-right p{
         line-height: 30px;
+    }
+
+
+
+    /*we are committed expert parthers*/
+    #contanier-expert-parthers{
+        width: 90%;
+    }
+
+    .contenitore-persone{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .parthers{
+        margin: 0 auto;
+    }
+
+    .parthers img{
+        width: 100%;
+    }
+    
+    .info-parthers p{
+        padding: 0;
+        margin: 0 auto;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .info-parthers strong{
+        padding-top: 15px;
+        margin: 0 auto;
+
     }
 
 
