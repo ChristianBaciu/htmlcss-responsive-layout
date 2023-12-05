@@ -378,6 +378,63 @@ main{
 }
 
 
+/*simple trasparent pricing*/
+#container-transparent{
+    background-color: #9792e4;
+    text-align: center;
+    color: white;
+}
+
+#container-transparent .container{
+    width: 600px;
+    margin: auto;
+}
+
+#container-transparent .container h2{
+    font-size: 30px;
+    padding: 10px;
+}
+
+#container-transparent .container h1{
+    font-size: 50px;
+    color: #fdc15f;
+}
+
+#container-transparent .container div{
+    padding: 30px;
+    font-size: 15px;
+}
+
+#container-transparent .container .but-white{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #9792e4;
+    border-radius: 75px;
+}
+
+#container-transparent .container a{
+    color: white;
+}
+
+/*finale*/
+footer{
+    background-color: #333333;
+    color: white;
+    padding: 40px;
+}
+
+footer .container{
+    width: 400px;
+    margin: auto;
+}
+
+footer div{
+    padding: 10px;
+    text-align: center;
+}
+
+
 /*768*/
 @media screen and ( max-width: 768px ){
 
@@ -492,11 +549,10 @@ main{
         width: 90%;
     }
 
-
-
     /*about us*/
     #about-us{
         width: 100%;
+        padding: 40px;
     }
 
     #about-us .info-about{
@@ -509,12 +565,15 @@ main{
         padding-top: 50px;
     }
 
+    /*simple trasparent pricing*/
+    #container-transparent .container{
+        width: 80%;
+    }
 
-
-
-
-
-
+    #container-transparent .container h2{
+        font-size: 30px;
+        padding: 10px;
+    }
     
 }
 
@@ -717,6 +776,10 @@ main{
         padding: 7px;
         border-radius: 25px;
         font-size: 10px;
+    }
+    
+    footer .container{
+        width: 100%;
     }
     
 }
