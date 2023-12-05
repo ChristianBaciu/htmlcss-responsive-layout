@@ -324,6 +324,60 @@ main{
     color: #5a6e7f;
 }
 
+
+/*about us*/
+#about-us{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#about-us .container-about{
+    display: flex;
+}
+
+#about-us .info-about{
+    width: 70%;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.info-about h1{
+    font-size: 40px;
+}
+
+.info-about p{
+    padding-top: 20px;
+}
+
+#about-us .info-foto{
+    width: 30%;
+    margin: auto;
+}
+
+#about-us .container-about .info-foto .prof figure img{
+    width: 150px;
+    height: 150px;
+    clip-path: circle(50%);
+}
+
+#about-us .info-foto .prof{
+    width: 50%;
+    color: #9792e4;
+    margin: 0 auto;
+}
+
+#about-us .info-foto .prof h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#about-us .info-foto .prof .but-purple{
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 10px;
+}
+
+
 /*768*/
 @media screen and ( max-width: 768px ){
 
@@ -363,15 +417,13 @@ main{
         height: 400px;
     }
         
-    figure img{
+    .container-app figure img{
         width: 160px;
         height: 170px;
         position: absolute;
         bottom: 0;
         left: 40px;
     }
-
-
 
     /*strategic planning*/
     #container-color{
@@ -421,8 +473,6 @@ main{
         height: 300px;
     }
 
-
-
     /*we are committed expert parthers*/
     #contanier-expert-parthers{
         width: 90%;
@@ -436,13 +486,31 @@ main{
         padding-left: 30px;
     }
 
-
-
     /*benefits of working with us*/
     .tabelle-numeri{
         padding-top: 15px;
         width: 90%;
     }
+
+
+
+    /*about us*/
+    #about-us{
+        width: 100%;
+    }
+
+    #about-us .info-about{
+        width: 60%;
+    }
+
+    #about-us .info-foto{
+        width: 40%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+
+
 
 
 
@@ -491,7 +559,7 @@ main{
         position: relative;
     }
     
-    figure img{
+    .container-app figure img{
         width: 200px;
         height: 170px;
         position: absolute;
@@ -592,5 +660,63 @@ main{
         margin: 0 auto;
     }
 
+
+
+
+
+    /*about us*/
+    #about-us{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #about-us .container-about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-us .info-about{
+        width: 100%;
+        padding: 30px;
+        line-height: 30px;
+    }
+
+    .info-about h1{
+        font-size: 40px;
+        color: #9792e4;
+    }
+
+    .info-about p{
+        padding-top: 20px;
+    }
+
+    #about-us .info-foto{
+        width: 100%;
+        margin: auto;
+    }
+
+    #about-us .container-about .info-foto .prof figure img{
+        width: 150px;
+        height: 150px;
+        clip-path: circle(50%);
+    }
+
+    #about-us .info-foto .prof{
+        width: 70%;
+        color: #9792e4;
+        margin: 0 auto;
+    }
+
+    #about-us .info-foto .prof h4{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #about-us .info-foto .prof .but-purple{
+        padding: 7px;
+        border-radius: 25px;
+        font-size: 10px;
+    }
     
 }
